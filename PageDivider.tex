@@ -1,0 +1,17 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage[inner=.7cm,outer=1cm]{geometry}
+\geometry{letterpaper} % ... or a4paper or a5paper or ... 
+\usepackage{graphicx}	
+\usepackage{caption}
+\newcommand{\sectit}{Section A.} %Set divider title here
+\newcommand{\centerimage}{image.JPG} %Set image here
+\newcommand{\captiontex}{An image of an example} %Set image caption here
+\begin {document}
+\pagenumbering{gobble}
+\begin{figure}[h] %  figure placement: here, top, bottom, or page
+\centering {\Huge \centering \sectit}
+    \includegraphics[width=8in,height=\textheight,keepaspectratio]{\centerimage}
+    \captionsetup{justification=centering}
+    \caption{\captiontex}
+\end{figure}
+\end {document}
