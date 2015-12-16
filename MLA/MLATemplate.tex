@@ -1,0 +1,18 @@
+\documentclass[pdflatex, 12pt]{article}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{times}
+\pagestyle{fancy}
+%\rhead{Lastame \thepage} You can either set your last name manually here, or insert "\newcommand{\Lastame}{Lastname}" in the file you're importing from.
+\rhead{\Lastame \thepage} 
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}
+\setlength\headsep{0.333in}
+\begin{document}
+\doublespacing
+\setlength{\parindent}{0.5in}
+%\flushleft %I loathe left flush, but if needed uncomment this line.
+\input{HamletEngPaper.tex}
+\end{document}

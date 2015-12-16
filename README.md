@@ -9,3 +9,7 @@ This is a note-taking template designed mainly for conferences / conventions how
 I like to keep my binders of notes organized. In order to do this effectively, I use section dividers. This is the template I have been using for section dividers over the past year.
 ##ReactionPaper.tex
 I had to write a series of "Reaction Papers" over a book I had to read for class. This is just a basic setup for a report that I included my preferred method of doing block quotes in. 
+##MLA
+There are two files in the MLA templates. The first is the MLATemplate.tex which is the key element of the template. This file need not be edited, other than setting your input file. 
+
+MLABoilerplate is an example file. It contains the basics of the MLA header as an example of how you should format it. 
