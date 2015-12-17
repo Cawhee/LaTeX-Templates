@@ -13,3 +13,5 @@ I had to write a series of "Reaction Papers" over a book I had to read for class
 There are two files in the MLA templates. The first is the MLATemplate.tex which is the key element of the template. This file need not be edited, other than setting your input file. 
 
 MLABoilerplate is an example file. It contains the basics of the MLA header as an example of how you should format it. 
+
+An important command you should pay attention to is `\newcommand{\Lastame}{YOURLASTNAME}`. This command is used to set your last name on every page. Alternatively you can set it in MLATemplate.tex, or leave it blank to avoid having your last name in the header all together.
