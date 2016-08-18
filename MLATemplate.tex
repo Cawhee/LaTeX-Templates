@@ -1,0 +1,30 @@
+\documentclass[pdflatex, 12pt]{article}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{times}
+\pagestyle{fancy}
+\usepackage[english]{babel}
+\usepackage{blindtext} %Feel free to remove blindtext, it's only for the example.
+
+\newcommand{\Lastame}{Wheeler} %Set your last name here for header
+\rhead{\Lastame \thepage} 
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}
+\setlength\headsep{0.333in}
+\doublespacing
+
+\begin{document}
+\setlength{\parindent}{1in}
+%MLA Heading
+{\noindent Cameron Wheeler\\} %Your name
+Dr. Wheeler \\ %Prof. Name
+Example Course 0101 \\ %Course
+December 18, 2075\\ %Date
+\begin{center}The paper's title\end{center} %Title of your paper
+%\flushleft %I loathe left flush, but if needed uncomment this line.
+%Begin your paper here
+\par \Blindtext
+
+\end{document}]
