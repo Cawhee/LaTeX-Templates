@@ -16,4 +16,4 @@ I like to keep my binders of notes organized. In order to do this effectively, I
 I had to write a series of "Reaction Papers" over a book I had to read for class. This is just a basic setup for a report that I included my preferred method of doing block quotes in. 
 
 ##MLATemplate.tex
-This is a simple template to set up a paper for MLA style. As such margins and indents are set at 1 inch. This also include a header with the command `\lastname`, so make sure you set that so that your name can be on every page. 
+This is a simple template to set up a paper for MLA style. As such margins are set at 1 inch and parindents at .5in. This also includes a header with the command `\lastname`, so make sure you set that so that your name can be on every page in accordance with MLA style. 
